@@ -1,0 +1,51 @@
+.plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.plan {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 7px;
+  border: 2px solid rgb(220, 216, 216);
+  display: flex;
+  flex-direction: column;
+}
+
+.plan:hover {
+  cursor: pointer;
+}
+
+.purplePlan {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 7px;
+  border: 2px solid #512be2;
+  display: flex;
+  flex-direction: column;
+}
+
+.purplePlan:hover {
+  cursor: pointer;
+}
+
+.purple-icon {
+  color: #512be2;
+}
+
+.plan-benefits {
+  color: rgb(181, 171, 171);
+}
+
+.plan-type {
+  margin-bottom: 5px;
+}

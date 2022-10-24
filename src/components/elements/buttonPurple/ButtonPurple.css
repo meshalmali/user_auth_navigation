@@ -1,0 +1,10 @@
+.clickme {
+  width: 376px;
+  height: 42px;
+}
+
+@media screen and (max-width: 450px) {
+  .clickme {
+    width: 276px;
+  }
+}

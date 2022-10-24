@@ -1,0 +1,24 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.banner-heading {
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.banner-description {
+  color: rgb(181, 171, 171);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 414px) {
+  .banner-heading {
+    font-size: x-small;
+  }
+}
